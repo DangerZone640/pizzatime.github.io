@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Ordering Form</title>
+</head>
+<body>
+<!-- Pizza -->
+    <h1>Pizza Ordering Form</h1>
+    <form action="#" method="post">
+        <h2>Contact Information</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <h2>Select Pizza Size</h2>
+        <label for="size">Pizza Size:</label>
+        <select id="size" name="size" required>
+            <option value="">Select Size</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>XLarge</option>
+        </select>
+        <!-- I used AI for this next bit, WAYYYY too many things to write over and over -->
+        <h2>Select Sauce</h2>
+        <input type="radio" id="marinara" name="sauce" value="marinara" required>
+        <label for="marinara">Marinara</label><br>
+        
+        <input type="radio" id="ranch" name="sauce" value="ranch">
+        <label for="ranch">Ranch</label><br>
+        
+        <input type="radio" id="nosauce" name="sauce" value="nosauce">
+        <label for="nosauce">No Sauce</label>
+
+        <h2>Select Toppings</h2>
+        <input type="checkbox" id="pepperoni" name="topping" value="pepperoni">
+        <label for="pepperoni">Pepperoni</label>
+        
+        <input type="checkbox" id="sausage" name="topping" value="sausage">
+        <label for="sausage">Sausage</label><br>
+
+        <input type="checkbox" id="mushroom" name="topping" value="mushroom">
+        <label for="mushroom">Mushroom</label>
+        
+        <input type="checkbox" id="pineapple" name="topping" value="pineapple">
+        <label for="pineapple">Pineapple</label><br>
+
+        <input type="checkbox" id="peppers" name="topping" value="peppers">
+        <label for="peppers">Peppers</label>
+        
+        <input type="checkbox" id="onions" name="topping" value="onions">
+        <label for="onions">Onions</label>
+
+        <h2>Additional Instructions</h2>
+        <textarea name="instructions" rows="4" cols="30" placeholder="Add instructions"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+<!-- Videogames -->
+    <h3>List of My Favorite Games</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Developer</th>
+                <th>Title</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Atlus</td>
+                <td>Persona 5</td>
+                <td>2016</td>
+            </tr>
+            <tr>
+                <td>Persona 4</td>
+                <td>2008</td>
+            </tr>
+            <tr>
+                <td>Persona 3</td>
+                <td>2006</td>
+            </tr>
+            <tr>
+                <td>Square Enix</td>
+                <td>Final Fantasy 7 Remake</td>
+                <td>2020</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Count: 4</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
